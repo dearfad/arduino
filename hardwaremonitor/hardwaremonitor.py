@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r"D:\Github\Repositories\arduino\cpuinfo")
+sys.path.append(r"D:\GitHub\Repositories\arduino\hardwaremonitor")
 
 import clr #package pythonnet, not clr
 openhardwaremonitor_hwtypes = ['Mainboard','SuperIO','CPU','RAM','GpuNvidia','GpuAti','TBalancer','Heatmaster','HDD']

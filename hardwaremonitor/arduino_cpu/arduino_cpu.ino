@@ -81,16 +81,16 @@ void loop() {
   
   if (Serial.available() > 0) {
     // get incoming byte:
-    inByte = Serial.read();
-    ld.printDigit(99,1);
-    delay(500);
-    ld.clear();
-    delay(500);
+    inByte = Serial.parseInt();
+    ld.printDigit(inByte,1);
+//    delay(500);
+//    ld.clear();
+//    delay(500);
   }
   else {
-    ld.printDigit(11, 1);
-    delay(500);
-    ld.clear();
-    delay(500);
+//    ld.printDigit(9999, 0);
+//    delay(500);
+//    ld.clear();
+//    delay(500);
   }
 }

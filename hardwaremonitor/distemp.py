@@ -4,7 +4,7 @@ import clr
 import serial
 
 # Use OpenHardwareMonitorLib
-sys.path.append(r"D:\Github\Repositories\arduino\cpuinfo")
+sys.path.append(sys.argv[0])
 clr.AddReference("OpenHardwareMonitorLib")
 from OpenHardwareMonitor.Hardware import Computer
 computer = Computer()
